@@ -11,3 +11,4 @@ class Photo(models.Model):
     tags = TaggableManager() 
     def __str__(self):
         return self.title
+    
